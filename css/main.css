@@ -1,0 +1,96 @@
+a.navbar-brand.js-scroll-trigger img {
+	max-width: 50px;
+}
+
+.bg-primary {
+	background-color: #FFFFFF !important;
+}
+.bg-secondary {
+	background-color: #8A8F9D !important;
+}
+
+.btn-primary {
+  background-color: #E79686;
+  border-color: #E79686;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #E87660;
+  border-color: #E87660;
+}
+
+.text-header-light {
+  color: #FFFFFF;
+}
+
+h2.text-secondary.text-uppercase.mb-0 {
+	color: #2C3E50 !important;
+}
+a.close-button.d-none.d-md-block.portfolio-modal-dismiss {
+	color: #E79686 !important;
+}
+
+hr.triangle-light,
+hr.triangle-dark {
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+hr.triangle-light:after,
+hr.triangle-dark:after {
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 0.25em;
+  content: '\f005';
+  font-family: FontAwesome;
+  font-size: 2em;
+}
+
+hr.triangle-light {
+  border-color: #fff;
+}
+hr.triangle-light:after {
+  color: #fff;
+  background-color: #57B4AD;
+}
+hr.triangle-dark {
+  border-color: #2C3E50;
+}
+hr.triangle-dark:after {
+  color: #2C3E50;
+  background-color: #FFFFFF;
+}
+
+
+.portfolio {
+	background-color: #57B4AD;
+}
+.portfolio .portfolio-item .portfolio-item-caption {
+  background-color: #E79686;
+}
+#contact {
+	background-color: #57B4AD;
+}
+
+.copyright {
+	background-color: #8A8F9D;
+}
+
+
+
+
+h2.font-weight-light.mb-0 {
+	color: #57B4AD !important;
+}
+
+
+@media(max-width:400px) {
+	a.navbar-brand.js-scroll-trigger img {
+  		max-width: 150px;
+	}
+}
